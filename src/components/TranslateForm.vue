@@ -10,13 +10,9 @@
 
           <el-select v-model="language">
             <el-option v-for="item in langList" :key="item.value" :value="item.value" :label="item.label"></el-option>
-            <!--<el-option value="en">English</el-option>
-            <el-option value="ru">Russian</el-option>
-            <el-option value="ko">Korean</el-option>-->
-
           </el-select>
           <input type="submit" value="翻译">
-        
+
 
 
       </form>
